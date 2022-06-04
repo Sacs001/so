@@ -1,0 +1,83 @@
+/* HEADER */
+header {
+    margin-top: 92px;
+    display: flex;
+    margin-left: 62px;
+    max-width: 85%;
+    padding-bottom: 27px;
+    padding: 0px;
+
+    align-items: center;
+    justify-content: center;
+
+    /* height: 100% */
+    /* width: 200; */
+    /* background-color: rgb(248, 248, 248); */
+}
+
+
+
+header .logo {
+    max-width: 189px;
+    max-height: 85px;
+}
+
+header .logo img {
+    max-width: 100%;
+}
+
+.burger {}
+
+.left {
+    margin-right: 444px;
+}
+
+.right {
+    height: 43px;
+    width: 200px;
+    margin-left: 20px;
+
+    align-items: center;
+    justify-content: center;
+
+    /* надпись */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Поиск */
+.seach_right {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.seach_btn {
+    height: 43px;
+    width: 43px;
+    background-color: red;
+    border: 0px;
+    background-image: url(/img/Vector.svg);
+}
+
+/* Делаем кнопки */
+.red_btn {
+    background-color: red;
+    color: white;
+}
+
+.white_btn {
+    background-color: #fff;
+    border: #fff 2px auto;
+    border-radius: 2px;
+}
+
+.gamburger span {
+    display: block;
+    max-width: 40px;
+    max-height: 9px;
+    margin: 7px;
+    background-color: gray;
+}
