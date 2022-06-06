@@ -1,6 +1,16 @@
+* {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* width: 100%; */
+}
+
 /* HEADER */
 header {
     margin-top: 92px;
+    margin-bottom: 40px;
     display: flex;
     margin-left: 62px;
     max-width: 85%;
@@ -26,7 +36,12 @@ header .logo img {
     max-width: 100%;
 }
 
-.burger {}
+.icon_burger {
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+}
 
 .left {
     margin-right: 444px;
@@ -40,18 +55,13 @@ header .logo img {
     align-items: center;
     justify-content: center;
 
-    /* надпись */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
 }
 
 /* Поиск */
 .seach_right {
     display: flex;
     flex-direction: row;
-
+    border: 2px solid #F11E24
 }
 
 .seach_btn {
@@ -60,18 +70,23 @@ header .logo img {
     background-color: red;
     border: 0px;
     background-image: url(/img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+
 }
 
 /* Делаем кнопки */
 .red_btn {
     background-color: red;
     color: white;
+    border: 0px;
 }
 
 .white_btn {
     background-color: #fff;
-    border: #fff 2px auto;
-    border-radius: 2px;
+    color: #F11E24;
+    border: 2px solid #F11E24
 }
 
 .gamburger span {
@@ -80,4 +95,46 @@ header .logo img {
     max-height: 9px;
     margin: 7px;
     background-color: gray;
+}
+
+/* rectangle */
+.rectangle {
+    background: gray url(/img/Rectangle\ 3.svg) no-repeat;
+    /* position: static; */
+    width: 1440px;
+    height: 450px;
+}
+
+/* .rectangle_photo {
+    /* position: relative; */
+/* left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+z-index: 1;
+background-image: url(/img/Rectangle\ 3.svg);
+} */
+.rectangle_text {
+    position: absolute;
+    width: 1048px;
+    height: 118px;
+    left: 197px;
+    top: 283px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+*/ .rectangle_line {
+    position: absolute;
+    left: 37.22%;
+    right: 37.08%;
+    top: 10.62%;
+    bottom: 88.38%;
 }
