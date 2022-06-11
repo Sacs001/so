@@ -9,10 +9,9 @@
 
 /* HEADER */
 header {
-    margin-top: 92px;
-    margin-bottom: 40px;
+    margin: 92px 62px 40px 62px;
+
     display: flex;
-    margin-left: 62px;
     max-width: 85%;
     padding-bottom: 27px;
     padding: 0px;
@@ -41,6 +40,7 @@ header .logo img {
     height: 30px;
     margin-left: 20px;
     text-decoration: none;
+    color: #838383;
 }
 
 .left {
@@ -99,42 +99,55 @@ header .logo img {
 
 /* rectangle */
 .rectangle {
+    margin-left: auto;
+    margin-right: auto;
     background: gray url(/img/Rectangle\ 3.svg) no-repeat;
-    /* position: static; */
+    position: static;
     width: 1440px;
     height: 450px;
 }
 
-/* .rectangle_photo {
-    /* position: relative; */
-/* left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-z-index: 1;
-background-image: url(/img/Rectangle\ 3.svg);
-} */
 .rectangle_text {
-    position: absolute;
+    position: relative;
     width: 1048px;
     height: 118px;
     left: 197px;
     top: 283px;
 
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 50px;
-    line-height: 59px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: linear-gradient(to top, #F11E24 50%, transparent 50%);
+
+
+}
+
+
+
+/* .rectangle_text::before {
+    content: '';
+    position: relative;
+    background: #F11E24;
+
+    font-size: 50px;
+
+    height: 43px;
+    width: 43px;
+
+}
+
+.rectangle_text::after {
+    content: '';
+    position: relative;
+    background: #F11E24;
     text-align: center;
 
-    color: #FFFFFF;
-}
+    font-size: 50px;
 
-*/ .rectangle_line {
-    position: absolute;
-    left: 37.22%;
-    right: 37.08%;
-    top: 10.62%;
-    bottom: 88.38%;
-}
+    height: 43px;
+    width: 43px;
+
+} */
