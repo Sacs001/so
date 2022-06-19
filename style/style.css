@@ -4,31 +4,35 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* width: 100%; */
+    max-width: 100%;
 }
 
 /* HEADER */
 header {
-    margin: 92px 62px 40px 62px;
+    margin: 6.4% 4.3% 2.7% 4.3%;
 
     display: flex;
-    max-width: 85%;
+    width: 85%;
     padding-bottom: 27px;
     padding: 0px;
 
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-between;
+    flex-wrap: nowrap;
     /* height: 100% */
     /* width: 200; */
     /* background-color: rgb(248, 248, 248); */
 }
 
-
+.nav_header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
 
 header .logo {
-    max-width: 189px;
-    max-height: 85px;
+    width: 189px;
+    height: 85px;
 }
 
 header .logo img {
@@ -36,16 +40,16 @@ header .logo img {
 }
 
 .icon_burger {
+    display: flex;
     width: 40px;
     height: 30px;
     margin-left: 20px;
     text-decoration: none;
     color: #838383;
+
 }
 
-.left {
-    margin-right: 444px;
-}
+
 
 .right {
     height: 43px;
@@ -99,20 +103,24 @@ header .logo img {
 
 /* rectangle */
 .rectangle {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     background: gray url(/img/Rectangle\ 3.svg) no-repeat;
-    position: static;
+    /* position: static; */
     width: 1440px;
     height: 450px;
+    justify-content: center;
+    align-items: center;
 }
 
 .rectangle_text {
-    position: relative;
+    /* position: relative;
     width: 1048px;
     height: 118px;
     left: 197px;
-    top: 283px;
+    top: 283px; */
+
 
 
     font-weight: 700;
@@ -125,29 +133,32 @@ header .logo img {
 
 }
 
+/* INFO */
 
-
-/* .rectangle_text::before {
-    content: '';
-    position: relative;
-    background: #F11E24;
-
-    font-size: 50px;
-
-    height: 43px;
-    width: 43px;
-
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 11.8% 75px 10.6%;
 }
 
-.rectangle_text::after {
-    content: '';
-    position: relative;
-    background: #F11E24;
-    text-align: center;
+.info_logo {
 
-    font-size: 50px;
+    background: url("/img/sozvezdie_logo_out-03_RGB_800x800\ 1.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-    height: 43px;
-    width: 43px;
+    /* height: 103px;
+    width: 27.6%; */
+}
 
-} */
+.info_text {
+    height: 40.8%;
+    width: 588px;
+
+    font-size: 24px;
+    line-height: 28px;
+    color: #838383;
+
+}
